@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,141 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+h1{
+  color: blueviolet;
+  font-size: large;
+  font-family: 'Times New Roman';
+  margin-left: 110px;
+}
+
+
+#super{
+  color: red;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+h3{
+  color:green;
+  font-size: large;
+  font-family:'Times New Roman';
+}
+
+h4{
+  color:purple;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+*{
+  font-family: 'Times New Roman';
+}
+
+ol,ul{
+  color:navy;
+  font-size: large;
+  font-family: 'Times New Roman';
+}
+
+
+img{
+  height : 10%;
+  width: 10%;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+.ds{
+  color:black;
+
+}
+
+.grid-container{
+  display: grid;
+  margin-top: 50px;
+  margin-left: 235px ;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+}
+
+.grid-item{
+  border: 5px solid black;
+  text-align: center;
+  background-color: blueviolet;
+  font-size: 50px;
+  padding: 20px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+}
+
+.flex-container {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  margin-left: 235px;
+}
+
+.flex-item{
+  flex-basis: 445px;
+  background-color: blueviolet;
+  text-align: center;
+  border: solid 5px black;
+  font-size: 50px;
+  padding: 20px;
 }
